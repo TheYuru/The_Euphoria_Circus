@@ -1,0 +1,253 @@
+body{
+  background-color: black;
+}
+
+header{
+	padding: 3%; /* CSS+ permet de créer un espace autour du header */
+	background-color: black;
+}
+/* permet un reset des marges intérieurs et extérieurs des différents éléments de la page 
+  pour assurer un affichage cohérent en fonction des différents navigateurs web */
+
+header ul{
+    text-decoration: none;  /* CSS+ permet d'enlever les puces et la mise à la ligne de la balise */
+}
+
+header li{  
+    float: left; /* CSS+ permet d'aligner les li du header */
+    width: 25%;
+    text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* Mise en page du header/navbar */
+
+header a{  
+	display: block; /* CSS+ j'ai agrandi la zone cliquable en un block */
+    text-decoration: none; /* CSS+ permet d'enlever les effet de la balise a sur le texte */
+    color: white;
+    border-bottom: 2px solid transparent; /* CSS+ permet de créer une barre de couleur latéral transparente */
+}
+
+
+header a:hover{
+	color: white;
+	border-bottom: 2px solid white; /* CSS+ j'ai ajouté une barre de couleur qui apparait au survol de la souris sur le texte pour insiter le visiteur à cliquer */
+}
+
+
+h1{ /* Mise en couleur du titre 1 de la page*/
+	color:white;
+	text-align: center;
+	font-size: 35px;
+}
+
+
+h2{
+	color:white;
+	text-align: center;
+	padding: 25px; /* CSS+ permet de définir un espace plus grand autour du sous titre h2*/
+	font-size: 30px;
+}
+
+
+#Chapito{
+	background-image: url("Images/Circus_Chapito.jpg"); /* Insertion de l'image en background de la div*/
+	height: 1279px; /*Permet de définir la taille de l'image*/   
+}
+/* Insertion de l'image de la page d'acceuil */
+
+#tournee_général{
+	background-image: url("Images/Circus_Ticket_3.png"); /* Insertion de l'image en background de la div*/
+	height: 1280px; /* permet  de définir la taille de l'image */ 
+}
+
+#tournee_1{  /* CSS+ display: flex justify-content: space-between permettent de situer les éléments cote à cote*/
+	display: flex; 
+	justify-content: space-between;
+}
+
+#tournee_2{  /* CSS+ display: flex justify-content: space-between permettent de situer les éléments cote à cote*/
+    display: flex;
+    justify-content: space-between;
+  }
+  
+#tournee_3{  /* CSS+ display: flex justify-content: space-between permettent de situer les éléments cote à cote*/
+    display: flex;
+    justify-content: space-between;
+  }
+  
+#tournee_4{  /* CSS+ display: flex justify-content: space-between permettent de situer les éléments cote à cote*/
+    display: flex;
+    justify-content: space-between;
+  }
+  
+#tournee_5{ /* CSS+ display: flex justify-content: space-between permettent de situer les éléments cote à cote*/
+    display: flex;
+    justify-content: space-between;
+  }
+/* Insertion de l'image de la page des représentations */
+
+.Poster{  /* CSS+ display: flex justify-content: space-between permettent de situer les éléments cote à cote*/
+	max-width: 300px;
+	max-height: 250px;
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;  /* CSS+ créer un espace autour */
+	padding-left: 500px; /* CSS+ créer un espace sur la gauche */
+}
+
+
+.ordre_tournee{ /* défini la taille de la section*/
+	max-width: 300px;
+	max-height: 250px;
+}
+
+.texte{ /* Redimension de la div du texte */
+	max-height: 100px;
+	padding-top: 50px; /* CSS+ permet de définir un espace au dessus*/
+}
+
+.reserver{ /* Redimension et style en gras*/
+	width: 300px;
+	height: 40px;
+	border-radius: 20px; /* CSS+ permet d'arrondir les bords du bouton*/
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+/* Position et redimension du bouton */
+
+.prix{  
+	max-width: 300px;
+	max-height: 250px;
+	padding-top: 75px; /* CSS+  Perme de définir un espace au dessus*/
+	padding-right: 500px;
+	font-size: 25px;
+	text-decoration: none; /* CSS+ permet d'enlever le style des balises a */
+	color: white;
+}
+
+p{ 
+	color:white;
+	padding-left: 40px; /* Défini un espace sur la gauche du texte*/
+	padding-right: 40px; /* Défini un espace sur la droite du texte*/
+	line-height: 21px; /* Défini un espace d'inter ligne*/
+}
+
+
+
+#Placement{ /* CSS+ display: flex justify-content: space-between permettent de situer les éléments cote à cote*/ /* permet de mettre cote a cote le plan et les tarifs*/
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.plan{ /* Redimensionne la class "plan"*/
+	max-height: 350px;
+	max-width: 350px;
+}
+
+.tarif{ /* Défini la couleur puis la taille de la police */
+	color: white;
+	font-size: 20px;
+}
+
+#tarif{ /* CSS+ display: flex justify-content: space-between permettent de situer les éléments cote à cote*/
+	display: flex;
+	justify-content: space-between;
+}
+.staff{ /* CSS+ display: flex justify-content: space-between permettent de situer les éléments cote à cote*/
+	display:flex;
+	justify-content: space-between;
+	padding-top: 30px; /* CSS+ Défini un espace sur le dessus*/
+}
+#Photo-Staff{ /* Défini la position et la couleur s*/
+	height: 300px;
+	width: 300px; 
+	padding-left: 30px;  /*  CSS+ Defini un espace sur la gauche S*/
+}
+
+#Texte-Staff{ /* Défini la position et la taille de la police */
+	font-size: 18px;
+	padding-top: 50px; /* Défini un espace sur le dessus*/
+	text-align: justify ;
+}
+
+
+footer{ /* Défini la couleur de fond et la taille*/
+	background-color: black;
+	width:100%;
+	height: 100px;
+}
+
+footer a{ /* Mise en couleur et supprimer le trait bleu des liens a href dans le footer */
+	text-decoration: none;
+	color: white;
+}
+
+
+#footer{  /* Met en noir la section footer et la positionne */
+	background-color: black;
+	padding-left: 25px;  /* CSS+ permet de définir un espace sur la gauche */
+} 
+
+
+
+#Contact{  /* CSS+ permet de positionner les infos dans le footer de maniere aligner et espace des bordures */
+	display: flex;
+	justify-content: space-around;
+}
+
+.mail{  /* CSS+ défini un espace sur la parti supérieur du texte  */
+	padding-top: 15px; 
+}
+
+.adresse{  /* CSS+ défini un espace sur la parti supérieur du texte */
+	padding-top: 15px; 
+  }
+
+img{  /* permet de positionner les images et le retravailler correctement */
+    width: 100%;
+    display: flex; /* CSS+ permet de ne pas avoir l'image fixe */
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0; /* CSS+  défini la marge du bas de 0*/
+}
+
+  
+.social {   /* permet de positionner la section contenant les images */
+    text-align:center;
+    padding-top: 25px; /* CSS+ défini un espace sur le dessus*/
+    padding-bottom: 25px; /* CSS+  défini un espace en dessous*/
+    padding-left: 25px; /* CSS+ défini un espace sur la gauche */
+    order: -1; /* CSS+ permet de créer un ordre de passage */
+}
+
+    
+.social > a { /* permet de donner la taille de la section et des images */ 
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block; /* CSS+  défini la position*/
+    text-align:center;
+    margin:0 8px; 
+    opacity:0.75; /* CSS+  défini l'oppacité du texte*/
+}
+
+    
+.social > a:hover {  /* CSS+ déifini l'opacité au moment du survol de la souris */
+    opacity:0.9;
+}
+    
+.copyright { /* permet d'afficher un copyright de la page et de le situer */ 
+    font-size:13px;
+    color:#aaa;
+    justify-content: end;  /* CSS+ permet de le situer à la fin */
+    text-align: center;
+}
+
